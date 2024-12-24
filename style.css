@@ -1,0 +1,153 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+.sub-container{
+    width:75%;
+    margin:auto;
+    /*background:bisque;*/
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    width: 52%;
+    box-sizing: border-box;
+    /*background: aliceblue;*/
+}
+
+    .banner-container h1 {
+        color: #1877f2;
+        font-size: 48px;
+        margin-bottom: 9px;
+        box-sizing: border-box;
+        margin-block-start: 0px;
+    }
+
+    .banner-container p {
+        color: #606770;
+        margin-bottom: 20px;
+        font-size: 29px;
+        box-sizing: border-box;
+        color: black;
+        margin-block-start: auto;
+    }
+
+.login-container {
+    box-sizing: border-box;
+    margin-top: 11%;
+    /*border: 1px solid magenta;*/
+}
+.login-wrapper {
+    width: 100%;
+    max-width: 440px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+
+    .login-wrapper input[type="text"],
+    .login-wrapper input[type="password"] {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-size: 17px;
+        padding: 14px 16px;
+        border: 1px solid #dddfe2;
+    }
+
+
+a:visited {
+    
+    background: aqua !important;
+
+}
+input:hover{
+    border:1px solid yellow !important;
+    border-color:blue !important;
+}
+
+
+::placeholder {
+    color: #ccd0d5;
+}
+
+.login-wrapper button {
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+}
+
+.login-wrapper button:hover {
+    background-color: #145dbf;
+}
+
+.login-wrapper a {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .login-wrapper a:hover {
+        text-decoration: underline;
+    }
+
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+#button2 {
+    width: 60%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin-top: 6px;
+}
+.ancher-box {
+ 
+    width: 100%;   
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ancher-box a {
+    text-decoration: none;
+    color: black;
+}
